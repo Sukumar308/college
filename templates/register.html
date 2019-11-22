@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+<head><title>Registration FOrm</title></head>
+<body>
+<center>
+<h1>Registration Form</h1>
+<br>
+{% if register %}
+<h1>Thanks for Ur Admission</h1>
+{% else %}
+<form method='POST' enctype="multipart/form-data" align='center'>
+{% csrf_token %}
+{{form.as_p}}
+{{form_user.as_p}}
+<input type='submit' value='Submit'>
+
+</form>
+{% endif %}
+</center>
+
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+{% load static%}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>About AITS</title>
+    <style>
+        p
+        {
+            text-align: justify;  
+        }
+        body
+        {
+            background-color: chocolate;
+        }
+    </style>
+
+
+
+
+  </head>
+  <body>
+    
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href='{% url "home" %}'>HOME PAGE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href='{% url "branch" %}'>BRANCH<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href='{% url "branch" %}'>FACULTY</a>
+            </li>
+            
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+        <h1 style=color:chocolate>About us</h1>
+        <p>&nbsp&nbsp&nbspAnnamacharya Institute of Technology & Sciences, Rajampet is an AUTONOMOUS institution and is affiliated to JNTUA, Anantapuramu. The institute was started in the year 1998 under the auspices of Annamacharya Educational Trust in picturesque surrounding on a spacious 30 acre campus near Tallapaka, the birth place of Annamacharya, the renowned saint poet.
+
+            </p>
+
+        <table width='100%'>
+            <tr>
+                <td><dl>
+                    <dt>The Institute is well located on Hyderabad - Chennai Highway.</dt>
+                    <dd><p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        Sri. C. Gangi Reddy garu, Hon’ Secretary of Annamacharya Educational Trust. He was born in the year 1954 to Choppa Narayana Reddy and Choppa Rajamma, a farmers family in Siddulapally, very close to Thallapaka the birth place of saint poet Annamacharya. He completed his initial education in Thallapaka and then went to Sri Govindarajaswamy Degree College, Tirupathi where he completed his graduation in B.Com. He got his Post Graduate degree Master of Commerce from Sri Venkateswara University, Tirupati in the year 1977. He completed LLB in 1981 through evening college from Osmania University. He started his official career in the department of agriculture immediately after post graduation through APPSC Hyderabad but having got selected through APPSC Group-II immediately joined as Sub Register in the registration department of AP Government.
+                            He took a decision to establish the Annamacharya Educational Trust in the year 1997 with a number of his well-wishers as the members of the trust, he himself being the Hon’ Secretary in the educational trust. Established an engineering college by name Annamacharya Institute of Technology and Sciences in the year 1998 at Rajampet, Annamacharya College of Pharmacy in the year 2001, Annamacharya College of Education also in the same year on the Rajampet campus.
+
+                        </p> <p>&nbsp&nbsp&nbsp Annamacharya Institute of Technology and Sciences at Piglipur, Hyderabad was started in the year 2005 and one Engineering college by the same name at Tirupati in the year 2007.
+                            
+                            Another Engineering college by the same name Annamacharya Institute of Technology and Sciences started at Kadapa in the year 2010.
+                            
+                        </p><p> &nbsp&nbsp&nbspDr.C.Ramachandra Reddy, a practicing children specialist in Rajampet is the chairman of Annamacharya Educational Trust, the sponsoring organization of the institute. He extends his services as the chief medical officer for AITS.
+                            </p> 
+                        </dd>
+                
+                </dl>
+                </td>
+                <td><img src='{% static "images/c1.jpg" %}' width=400px height='500px'></td>
+            </tr>
+            <tr>
+                    <td colspan='2'></td>
+                </tr>
+    
+
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
